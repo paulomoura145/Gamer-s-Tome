@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 let isDown = false;
 let startX;
 let scrollLeft;
