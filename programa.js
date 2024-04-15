@@ -22,7 +22,7 @@ slider.addEventListener('mousemove', (e) => {
   const x = e.pageX - slider.offsetLeft;
   const walk = (x - startX);
   slider.scrollLeft = scrollLeft - walk;
-=======
+
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -47,4 +47,4 @@ slider.addEventListener('mousemove', (e) => {
   const x = e.pageX - slider.offsetLeft;
   const walk = (x - startX);
   slider.scrollLeft = scrollLeft - walk;
-});
+})})
