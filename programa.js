@@ -1,8 +1,9 @@
+
 let isDown = false;
 let startX;
 let scrollLeft;
 
-const slider = document.querySelector('.carrocel');
+const slider = document.querySelector ('.carrocel');
 
 slider.addEventListener('mousedown', (e) => {
   isDown = true;
