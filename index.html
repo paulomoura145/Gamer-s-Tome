@@ -10,16 +10,17 @@
 <body>
 
     <header>
-        <img class="icon-logo" src="./img/incial/logo.png">
+        <a href="#" onclick="navegarPara('Home')"><img class="icon-logo" src="./img/incial/logo.png"></a>
         <h1>GAMER'S TOME</h1>
-        <a href=""><h2>Mais Populares</h2></a>
-        <a href=""><h2>Retro</h2></a>
-        <a href=""><h2>Atuais</h2></a>
-        <a href=""><h2>Marcantes</h2></a>
-        <a href="" class="lupa-pesq"><img class="img-lupa" src="./img/incial/lupa.png"></a>
-        <button class="login">Login</button>
+        <a href="#" onclick="navegarPara('Maispopulares')"><h2>Mais Populares</h2></a>
+        <a href="#" onclick="navegarPara('Retro')"><h2>Retro</h2></a>
+        <a href="#" onclick="navegarPara('Atuais')"><h2>Atuais</h2></a>
+        <a href="#" onclick="navegarPara('Marcantes')"><h2>Marcantes</h2></a>
+        <a href="#" class="lupa-pesq"><img class="img-lupa" src="./img/incial/lupa.png"></a>
+        <button class="login" onclick="login()">Login</button>
     </header>
 
+<div id="Home">
     <div class="inicial-top">
         <div class="menu"><div class="linhas-menu"><div class="linhas1"></div><div class="linhas2"></div><div class="linhas3"></div></div><h1>Menu</h1></div>
         <h1>Novidade</h1>
@@ -31,7 +32,7 @@
         <div><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"><img src="./img/incial/logo.png" alt="erro"></div>
         <h1>Tutoriais</h1>
         <p>Domine seus jogos favoritos com nossos tutoriais especializados! Encontre dicas, estratégias e guias passo a passo para aprimorar suas habilidades de jogo. Seja você um novato ou um jogador experiente, estamos aqui para ajudar você a alcançar o próximo nível!</p>
-        <h2>Mais Populares</h2>
+        <h3>Mais Populares</h3>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/iqNiLJhUO8Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <button>Acessar</button>
     </div>
@@ -58,6 +59,13 @@
             <p>Agradecimos, coloque seus comentarios de melhoria nas nossas comunidades</p>
         </div>
     </div>
+</div>
+
+    <div id="Maispopulares" style="display:none;"></div>
+    <div id="Retro" style="display:none;"> nova pg</div>
+    <div id="Atuais" style="display:none;"> nova pg</div>
+    <div id="Marcantes" style="display:none;"> nova pg</div>
+
     
     <script src="programa.js"></script>
 </body>

@@ -1,3 +1,4 @@
+
 html{
     height: 100%;
     width: 100%;
@@ -5,13 +6,14 @@ html{
 }
 
 body{
-    margin: 0px;
     height: 100vh;
     width: 100vw;
     background: rgba(11, 35, 69, 1);
     overflow-x: hidden;
     display: block;
-    
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'inter';
 }
 
 header{
@@ -24,8 +26,9 @@ header{
 }
 
 header h1{
-    margin-right: 10%;
     margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 8%;
 }
 
 header h2{
@@ -38,10 +41,10 @@ img{
 }
 
 .icon-logo{
-    width: 5%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
-    margin: 1.5% 2%;
+    margin-left: 20%;
 }
 
 .lupa-pesq{
@@ -61,7 +64,7 @@ header a{
     color: #ffff;
     text-decoration: none;
     margin-top: 1%;
-    margin-right: 1%;
+    margin-left: 1%;
 }
  .login{
     width: 14%;
@@ -76,38 +79,36 @@ header a{
  } /* fim do header */
 
  @media screen and (max-width: 768px) {
-    body {
-        font-size: 70%; /* Reduz o tamanho da fonte base para telas menores */
-        display: block;
-        align-items: center;
-    }
-    header{
-        flex-direction: column;
-        margin-bottom: 5%;
-        height: 70%;
-        width: 100%;
-        text-align: center;
-        align-items: center;
+    body{
+        font-size: 80%;
     }
 
-    header .icon-logo{
+    header h1{
+        margin-left: 1%;
+        margin: 0%;
+    }
+
+    iframe{
+        width: 40%;
         height: 20%;
-        width: 10%;
     }
 
-    .inicial-top{
-        align-items: center;
-        flex-direction: column;
+    .inicial-meio{
+        font-size: 80%;
     }
+    .inicial-meio h3{
+        margin-left: -10%;
+        margin-top: 20%;
+    }
+
 }   /* fim responsividade */
 
  .inicial-top{
-    position: relative;
     width: 100%;
     height: 100%;
     color: #ffff;
     display: flex;
-    
+    font-weight: bold;
  }
 
  .menu{
@@ -173,6 +174,187 @@ header a{
 
 .inicial-meio{
     width: 100%;
-    height: 100%;
+    height: 1080px;
     background: #ffff;
+    color: #001635;
+}
+
+.inicial-meio div{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border: #001635 solid 4px;
+    border-radius: 40px;
+    top: 2%;
+    left: 10%;
+    align-items:flex-start;
+    overflow: hidden;
+}
+
+.inicial-meio div img{
+    width: 13%;
+    height: 20%;
+    margin: 4%;
+    object-fit: cover;
+}
+
+.inicial-meio h1{
+    font-size: 380%;
+    margin-left: 3%;
+    font-family: 'Press Start 2P';
+    margin-top: 10%;
+}
+
+.inicial-meio p{
+    font-size: 220%;
+    width: 50%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.inicial-meio button{
+    width: 20%;
+    height: 8%;
+    position: relative;
+    top: -30%;
+    left: -20%;
+    background: rgba(255, 77, 91, 1);
+    font-size: 160%;
+    font-family: 'Press Start 2P';
+    color: #ffff;
+}
+
+.inicial-meio h3{
+    position: relative;
+    left: 55%;
+    font-size: 380%;
+    font-family: 'Press Start 2P';
+    top: -60%;
+    width: 40%;
+    text-align: center;
+}
+
+.inicial-meio iframe{
+    position: relative;
+    top: -55%;
+    left: 55%;
+} /* fim da div inicial-meio*/
+
+.inicial-baixo{
+    width: 100%;
+    height: 630px;
+    background: #001635;
+    color: #ffff;
+    display: flex;
+}
+
+.inicial-baixo .text{
+    display: block;
+    width: 50%;
+    font-size: 130%;
+    background: none;
+    margin-top: 4%;
+}
+
+.inicial-baixo h1{
+    font-family: 'Press Start 2P';
+}
+
+.inicial-baixo div{
+    width: 40%;
+    height: 40%;
+    background: #FF4D5B;
+    margin: 1%;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 90%;
+    font-family: 'Press Start 2p';
+}
+
+.inicial-baixo div img{
+    width: 50%;
+    height: 60%;
+    background-size: contain;
+    margin: 10%;
+}
+
+.inicial-baixo button{
+    position: relative;
+    height: 10%;
+    width: 60%;
+    top: 80%;
+    right: 10%;
+    background: #FF4D5B;
+    font-size: 120%;
+    color: #ffff;
+    font-family: 'Press Start 2p';
+
+} /* fim da inicial meio */
+
+.inicial-baixo-fim{
+    height: 450px;
+    width: 100%;
+    background: #000;
+    color: #ffff;
+}
+
+.barra{
+    height: 93px;
+    width: 100%;
+    background: #962948;
+    text-align: center;
+    display: flex;
+    font-size: 120%;
+    align-items: center;
+}
+
+.barra h2{
+    margin-left: 20%;
+}
+
+.desenvolvedores-info{
+    display: block;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    text-align: center;
+}
+
+.desenvolvedores-info .img-comunidades{
+    display: flex;
+    align-items: center;
+}
+
+.img-comunidades img{
+    margin-top: 5%;
+    background-size: contain;
+    margin-bottom: 2%;
+}
+
+.icon-insta{
+    background: #000;
+    width: 10%;
+    height: 20%;
+    margin-left: 39%;
+}
+
+.icon-disc{
+    background: #fff;
+    width: 10%;
+    height: 20%;
+} /* fim da div inicial*/
+
+#Maispopulares{
+    height: 1080px;
+    width: 100%;
+    background: #962948;
+}
+
+#Retro{
+    height: 1080px;
+    width: 100%;
+    background: #fff;
 }
