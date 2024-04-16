@@ -24,3 +24,15 @@ slider.addEventListener('mousemove', (e) => {
   const walk = (x - startX);
   slider.scrollLeft = scrollLeft - walk;
 });
+
+var paginas = ['Home', 'Maispopulares', 'Retro', 'Atuais', 'Marcantes'].map(id => document.getElementById(id));
+
+function navegarPara(paginaId) {
+  paginas.forEach((pagina) => {
+    if (pagina.id === paginaId) {
+      pagina.style.display = 'block';
+    } else {
+      pagina.style.display = 'none';
+    }
+  });
+}
