@@ -79,11 +79,11 @@
     outline-color: var(--cor3);
     transition: outline-width 0.1s ease-in-out;
 }
-.linkBox a[id="Discord"] {
+.linkBox [id="Discord"] {
     height: 18vh;
 }
-.linkBox a[id="Discord"]:hover {
-    height: 25vh;
+.linkBox a:hover [id="Discord"] {
+    height: 22vh;
 }
 .linkBox .Discord {
     background-color: #7289da;
@@ -97,19 +97,19 @@
     outline-width: 0vh;
 }
 .linkBox a img {
-    height: 15vh;
+    height: 12vh;
     transition: height 0.3s ease-in-out;
 }
 
 .linkBox a:hover img {
-    height: 20vh; 
+    height: 15vh; 
 }
 
 .linkBox a p {
     margin-top: 2vh;
     font-family: "Press Start 2P", system-ui;
     font-weight: bold;
-    font-size: .7vw;
+    font-size: 1.7Svh;
     color: var(--cor5);
 }
 
