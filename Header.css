@@ -1,9 +1,12 @@
 /* Estilos do Header */
-*{
-    margin: 0;
+* {
+    box-sizing: border-box;
 }
 body {
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
+    background-color: var(--cor1);
 }
 .navigation {
     display: flex;
@@ -128,15 +131,16 @@ body {
 }
 .img-info img {
     height: 20vh;
-    background-color: var(--cor1-1);
+    background-color: var(--cor3);
     border-radius: 5vh;
     transition: background-color 0.2s ease;
 }
 .img-info img:hover {
     cursor: pointer;
-    background-color: var(--cor1-2);
+    background-color: var(--cor4);
 }
 .Texto-info {
+    line-height: .1vh;
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
@@ -145,7 +149,7 @@ body {
     font-family: Verdana;
     font-weight: bold;
     text-align: center;
-    color: var(--cor1-2);
+    color: var(--cor3);
     width: 40vw;
     height: 20vh;
     font-size: 1.5vw;
