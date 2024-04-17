@@ -3,6 +3,8 @@
     box-sizing: border-box;
 }
 body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -49,6 +51,7 @@ body {
     width: fit-content;
     align-items: center;
     margin-left: 1vw;
+    margin-right: 1vw;
     justify-content: right;
 }
 .menu [type="button"] {
@@ -88,14 +91,6 @@ body {
 .login [type="button"]:active {
     background-color: var(--cor4);
     outline-color: var(--cor4);
-}
-.search {
-    display: flex;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-    padding-right:  1vw;
-    padding-left: 1vw;
 }
 
 /* fim do header */
