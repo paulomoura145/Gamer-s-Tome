@@ -96,3 +96,57 @@ body {
 }
 
 /* fim do header */
+
+/*footer*/
+
+.rodape {
+    display: flex;
+    background-color: var(--cor1);
+    align-content: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    user-select: none;
+    color: var(--cor5);
+}
+
+.desenvolvedores-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    font-family: Verdana;
+}
+.img-info {
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 20vh;
+}
+.img-info img {
+    height: 20vh;
+    background-color: var(--cor1-1);
+    border-radius: 5vh;
+    transition: background-color 0.2s ease;
+}
+.img-info img:hover {
+    cursor: pointer;
+    background-color: var(--cor1-2);
+}
+.Texto-info {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor1-2);
+    width: 40vw;
+    height: 20vh;
+    font-size: 1.5vw;
+}
