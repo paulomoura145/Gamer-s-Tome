@@ -13,7 +13,6 @@ body {
 .navigation {
     display: flex;
     background-color: var(--cor1);
-    align-content: center;
     height: 12vh;
     width: 100%;
     user-select: none;
@@ -44,11 +43,11 @@ body {
     align-items: center;
     width: 100%;
     margin-left: 1vw;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
-.login {
+.login img{
     display: flex;
-    
+    height: 12vh;
 }
 .menu [type="button"] {
     border-radius: 1vw;
