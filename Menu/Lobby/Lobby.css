@@ -28,7 +28,7 @@
     user-select: none;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: var(--cor5);
 }
 .conteudo-3 {
@@ -48,27 +48,27 @@
 
 .Nav-links {
     display: flex;
-    flex-direction: row;
-    width: 50vw;
-    height: 100%;
-    justify-content: space-evenly;
+    width: 100vw;
+    height: 70vh;
     align-items: center;
+    justify-content: center;
 }
 .linkBox {
-    height:40vh;
-    width: 50vw;
     display: flex;
-    justify-content: space-around;
+    height: 40vh;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 6vh;
 }
 .linkBox [type="Down"] {
-    margin: 6vh;
+    margin-top: 6vh;
 }
 .linkBox a {
     display: flex;
     width: 20vh;
     height: 28vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     background-color: var(--cor3);
     color: var(--cor5);
@@ -80,8 +80,18 @@
     outline-color: var(--cor3);
     transition: outline-width 0.1s ease-in-out;
 }
+.linkBox a[id="Discord"] {
+    height: 18vh;
+}
+.linkBox a[id="Discord"]:hover {
+    height: 25vh;
+}
+.linkBox .Discord {
+    background-color: #7289da;
+    outline-color: #7289da;
+}
+
 .linkBox a:hover {
-    outline-color: var(--cor3);
     outline-width: 1vh;
 }
 .linkBox a:active {
@@ -93,7 +103,7 @@
 }
 
 .linkBox a:hover img {
-    height: 17vh; 
+    height: 20vh; 
 }
 
 .linkBox a p {
@@ -108,7 +118,7 @@
     display: flex;
     flex-direction: column;
     width: 50vw;
-    height: 100%;
+    height: 70vh;
     justify-content: center;
     align-items: center;
 }
@@ -220,7 +230,9 @@
 }
 .Conteudo-2-Tutoriais-texto h1 {
     font-family: "Press Start 2P", system-ui;
-    font-size: 4vw;
+    font-size: 3.5vw;
+    line-height: 10vh;
+    text-align: center;
     margin-bottom: 3vh;
     margin-top: 3vh;
 }
@@ -244,6 +256,7 @@
 }
 
 .Conteudo-2-MaisPopulares h1 {
+    line-height: 10vh;
     margin-right: 8vw;
     display: flex;
     text-align: center;
