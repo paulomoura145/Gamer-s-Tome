@@ -56,7 +56,7 @@
     display: flex;
     height: 40vh;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 6vh;
 }
 .linkBox [type="Down"] {
@@ -79,11 +79,11 @@
     outline-color: var(--cor3);
     transition: outline-width 0.1s ease-in-out;
 }
-.linkBox [id="Discord"] {
+.linkBox a[id="Discord"] {
     height: 18vh;
 }
-.linkBox a:hover [id="Discord"] {
-    height: 22vh;
+.linkBox a[id="Discord"]:hover {
+    height: 25vh;
 }
 .linkBox .Discord {
     background-color: #7289da;
@@ -97,19 +97,19 @@
     outline-width: 0vh;
 }
 .linkBox a img {
-    height: 12vh;
+    height: 15vh;
     transition: height 0.3s ease-in-out;
 }
 
 .linkBox a:hover img {
-    height: 15vh; 
+    height: 20vh; 
 }
 
 .linkBox a p {
     margin-top: 2vh;
     font-family: "Press Start 2P", system-ui;
     font-weight: bold;
-    font-size: 1.7Svh;
+    font-size: .7vw;
     color: var(--cor5);
 }
 
@@ -127,14 +127,14 @@
     font-size: 3vw;
     margin-top: 10vh;
     width: 50vw;
-    height: 5vh;
+    height: 10vh;
     color: var(--cor5);
     align-content: center;
     text-align: center;
 }
 .Apresentacao [id = "WIKI"] {
     width: 50vw;
-    height: 5vh;
+    height: 10vh;
     color: var(--cor3);
 
 }
@@ -382,11 +382,3 @@
 }
 
 /* fim do conteudo */
-
-
-
-
-
-
-
-

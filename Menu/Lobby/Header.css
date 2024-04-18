@@ -1,0 +1,152 @@
+/* Estilos do Header */
+*{
+    margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.navigation {
+    display: flex;
+    background-color: var(--cor1);
+    align-content: center;
+    height: 12vh;
+    width: 100%;
+    user-select: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1vw;
+}
+.logo img {
+    height: 8vh;
+}
+.typography {
+    display: flex;
+    white-space: nowrap;
+    width: fit-content;
+    align-items: center;
+    margin-left: 1vw;
+    color: var(--cor5);
+    font-family: "Press Start 2P", system-ui;
+    justify-content: left;
+    font-size: 2vh;
+}
+.menu {
+    display: flex;
+    font-weight: bold;
+    font-family: Verdana;
+    align-items: center;
+    width: 100%;
+    margin-left: 1vw;
+    justify-content: space-around;
+}
+.login {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    margin-left: 1vw;
+    justify-content: right;
+}
+.menu [type="button"] {
+    border-radius: 1vw;
+    padding: 1vh 1vw;
+    color: var(--cor5);
+    text-decoration: none;
+    align-content: center;
+    font-size: 4vh;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+.menu [type="button"]:hover {
+    background-color: var(--cor1-1);
+}
+.menu [type="button"]:active {
+    background-color: var(--cor1-2);
+}
+.login [type="button"] {
+    outline: .4vb solid;
+    outline-color: var(--cor3);
+    outline-offset: -.4vb;
+    border-radius: 1vw;
+    padding: 1vh 3vw;
+    margin-right: 1vw;
+    color: var(--cor3);
+    text-decoration: none;
+    align-content: center;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 4vh;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+.login [type="button"]:hover {
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+.login [type="button"]:active {
+    background-color: var(--cor4);
+    outline-color: var(--cor4);
+}
+.search {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    padding-right:  1vw;
+    padding-left: 1vw;
+}
+
+/* fim do header */
+
+/*footer*/
+
+.rodape {
+    display: flex;
+    background-color: var(--cor1);
+    align-content: center;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+    user-select: none;
+    color: var(--cor5);
+}
+
+.desenvolvedores-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    font-family: Verdana;
+}
+.img-info {
+    display: flex;
+    margin-top: 5vh;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+    height: 20vh;
+}
+.img-info img {
+    height: 20vh;
+    background-color: var(--cor1-1);
+    border-radius: 5vh;
+    transition: background-color 0.2s ease;
+}
+.img-info img:hover {
+    cursor: pointer;
+    background-color: var(--cor1-2);
+}
+.Texto-info {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    font-family: Verdana;
+    font-weight: bold;
+    text-align: center;
+    color: var(--cor1-2);
+    width: 40vw;
+    height: 20vh;
+    font-size: 1.5vw;
+}

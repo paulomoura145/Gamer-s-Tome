@@ -1,104 +1,31 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Header.css">
-    <link rel="stylesheet" href="login.css">
-    <link rel="stylesheet" href="/Cores.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
-    <title>Login</title>
-</head>
-
-<body>
-    <header class="navigation">
-        <div class="logo">
-            <img src="\img\incial\logo.png" height="60px" style="user-select: none;" draggable="false">
+    <head>
+        <title>GAME'S TOME</title>
+        <link rel="stylesheet" href="/Gamer-s-Tome\Header.css">
+        <link rel="stylesheet" href="Login.css">
+        <link rel="stylesheet" href="/Gamer-s-Tome/Cores.css">  
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+        <script src="/Gamer-s-Tome\Script.js"></script>
+    </head>
+    <body id="Login">
+        <header class="navigation">
+            <div class="logo">
+                <img src="\Gamer-s-Tome\img\incial\logo.png" height="60px" style="user-select: none;" draggable="false">
+            </div>
             <div class="typography">
                 <h1>GAMER'S TOME</h1>
             </div>
-        </div>
-        <div class="menu">
-            <a href="\Menu\Lobby\Lobby.html" type="button" draggable="false">Lobby</a>
-            <a href="\Menu\Games\Games.html" type="button" draggable="false">Games </a>
-            <a href="\Menu\Videos\Videos.html" type="button" draggable="false">Videos</a>
-            <a href="\Menu/Favoritos/Favoritos.html" type="button" draggable="false">Favoritos</a>
-        </div>
-        <div class="login">
-            <a href="/Menu/Login/Login.html"><img src="/img/incial/login.png" type="button" draggable="false"></a>
-        </div>
-    </header>
-
-    <div class="container_login">
-        <div class="conteudo_login" id="container">
-
-            <div class="form_container inscrever">
-
-                <form action="#">
-                    <h1>Criar conta</h1>
-                    
-                    <div class="icones-sociais">
-                        <a href="#" class="icone"><i class="fa-brands fa-google-plus-g"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </div>
-
-                    <span>use seu email para se registrar</span>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Senha">
-                    <button id="Inscrever">Inscreva-se </button>
-                </form>
+            <div class="menu">
+                <a href="\Gamer-s-Tome\Menu\Lobby\Lobby.html" type="button" draggable="false" >Lobby</a>
+                <a href="\Gamer-s-Tome\Menu\Games\Games.html" type="button" draggable="false" >Games </a>
+                <a href="\Gamer-s-Tome\Menu\Videos\Videos.html" type="button" draggable="false" >Videos</a>
+                <a href="\Gamer-s-Tome/Menu/Favoritos/Favoritos.html" type="button" draggable="false" >Favoritos</a>
             </div>
-
-            <div class="form_container logar">
-
-                <form action="#">
-                    <h1>Login</h1>
-                    
-                    <div class="icones_sociais">
-                        <a href="#" class="icone"><i class="fa-brands fa-google-plus-g"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-github"></i></a>
-                        <a href="#" class="icone"><i class="fa-brands fa-linkedin-in"></i></a>
-                    </div>
-
-                    <span>entre com seu email</span>
-                    <input type="text" placeholder="Nome">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Senha">
-                    <a href="#">Esqueceu sua senha?</a>
-                    <button>Entrar</button>
-                </form>
+            <div class="login">
+                <a href="\Gamer-s-Tome\Menu\Login\Login.html" type="button" draggable="false">Login</a>
             </div>
-
-            <div class="container_alternar">
-                <div class="alternar">
-                    <div class="alternar_painel painel_esquerdo">
-                        <h1>Bem-vindo de volta</h1>
-                        <p>Entre com suas informações para aproveitar o site</p>
-                        <button class="hidden" id="login">Entrar</button>
-                    </div>
-                    
-                    <div class="alternar_painel painel_direito">
-                        <h1>Olá!</h1>
-                        <p>Crie uma conta para aproveitar o site</p>
-                        <button class="hidden" id="inscrever">inscreva-se</button>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    
-    </div>
-    <script src="login.js"></script>
-</body>
-
+        </header>
+        <div></div>
+    </body>
 </html>
