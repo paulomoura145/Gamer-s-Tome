@@ -2,38 +2,46 @@
 <html>
     <head>
         <title>GAME'S TOME</title>
-        <link rel="stylesheet" href="/Gamer-s-Tome\Header.css">
         <link rel="stylesheet" href="Games.css">
-        <link rel="stylesheet" href="/Gamer-s-Tome/Cores.css">
+        <link rel="stylesheet" href="../Lobby/Cores.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
         <script src="/Gamer-s-Tome\Script.js"></script>
     </head>
     <body id="Games">
         <header class="navigation">
-            <div class="logo">
-                <img src="\Gamer-s-Tome\img\incial\logo.png" height="60px" style="user-select: none;" draggable="false">
-            </div>
-            <div class="typography">
-                <h1>GAMER'S TOME</h1>
-            </div>
-            <div class="menu">
-                <a href="\Gamer-s-Tome\Menu\Lobby\Lobby.html" type="button" draggable="false" >Lobby</a>
-                <a href="\Gamer-s-Tome\Menu\Games\Games.html" type="button" draggable="false" >Games </a>
-                <a href="\Gamer-s-Tome\Menu\Videos\Videos.html" type="button" draggable="false" >Videos</a>
-                <a href="\Gamer-s-Tome/Menu/Favoritos/Favoritos.html" type="button" draggable="false" >Favoritos</a>
-            </div>
+                <img class="logo" src="../Lobby/img/incial/logo.png" height="60px" style="user-select: none;" draggable="false">
+                <h1 class="typography">GAMER'S TOME</h1>
             <div class="login">
                 <a href="\Gamer-s-Tome\Menu\Login\Login.html" type="button" draggable="false">Login</a>
             </div>
         </header>
+<div class="lateral">
+        <div class="menu">
+            <div class="icon-menu" type="icon-menu">Menu</div>
+            <h1>LOBBY</h1>
+            <p>GAMES</p>
+            <p>VIDEOS</p>
+            <p>WIKI</p>
+            <h1>OPÇÕES</h1>
+            <p>COMENTARIOS DE AVALIAÇÕES</p>
+            <p>TUTORIAS DA PLATAFORMA WIKI</p>
+        </div>
+    <div class="todos-conteudos">
         <div class ="Conteudo-1-Games">
-            <div class="carrocel">
-                <img src="./img/incial/logo.png" alt="erro" id="img-1" href="#">
-                <img src="./img/incial/logo.png" alt="erro" id="img-2" href="#">
-                <img src="./img/incial/logo.png" alt="erro" id="img-3" href="#">
-                <img src="./img/incial/logo.png" alt="erro" id="img-4" href="#">
-                <img src="./img/incial/logo.png" alt="erro" id="img-5" href="#">
-                <img src="./img/incial/logo.png" alt="erro" id="img-6" href="#">
+            <h1>DESTAQUES E RECOMENDADOS</h1>
+            <div class="carrocel"> 
+                <img src="../Lobby/Lançamentos/img_dragons_dogma_2.jpg" alt="erro"> 
+                <div class="parte-carrocel"></div>  
+            </div>
+            <div class="mini-button">
+                <button id="1"></button>
+                <button id="2"></button>
+                <button id="3"></button>
+                <button id="4"></button>
+                <button id="5"></button>
+                <button id="6"></button>
+                <button id="7"></button>
+                <button id="8"></button>
             </div>
         </div>
         <div class="filtro-menu">
@@ -42,8 +50,7 @@
         <div class="Conteudo">
 
         </div>
-        <footer>
-            
-        </footer>
+    </div>
+</div>
     </body>
 </html>
